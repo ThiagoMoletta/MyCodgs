@@ -1,0 +1,5 @@
+--- SUBSTITUIR O * PELO NOME DA COLUNA DESEJADA ---
+--- SUBSTITUIR O DADO ESCOLHIDO SELECIONANDO PELO ID ex: 'WHERE id=1'
+SELECT * FROM pessoa 
+UPDATE pessoa SET nome = 'Thiago Moletta' WHERE id=1; --- antes do comando estava 'Thiago'
+UPDATE pessoa SET nome = 'Lucas Oliveira' WHERE id=2; --- antes do comando estava 'Lucas'

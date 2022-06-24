@@ -1,0 +1,8 @@
+---CRIANDO coluna NOVA COM CODIGO::: ALTER TABLE pessoa ADD gênero VARCHAR(1) NOT NULL AFTER nascimento;
+UPDATE pessoa SET genero= 'M' WHERE id=1 --- adicionando genero 'M' para o id=1
+UPDATE pessoa SET genero= 'F' WHERE id=3 --- adicionando genero 'F' para o id=3
+UPDATE pessoa SET genero= 'M' WHERE id=2 --- adicionando genero 'M' para o id=2
+---******************************************************************************************************
+
+SELECT COUNT (id), gênero FROM pessoa GROUP BY gênero; ---agrupamento para saber quantidade de ids por genero ex: 2M e 1F
+--- COUNT conta valores inseridos no determinado agrupamento 
